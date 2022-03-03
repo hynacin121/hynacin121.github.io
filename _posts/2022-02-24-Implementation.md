@@ -3,7 +3,7 @@ category: [FinancialDataAnalysis]
 title : "Code of Portfolio Optimization"
 excerpt : ""
 
-date: 2022-02-19
+date: 2022-02-24
 use_math : true
 ---
 

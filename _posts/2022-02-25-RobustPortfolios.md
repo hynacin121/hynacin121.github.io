@@ -3,7 +3,7 @@ category: [FinancialDataAnalysis]
 title : "Robust Portfolio"
 excerpt : ""
 
-date: 2022-02-19
+date: 2022-02-25
 use_math : true
 ---
 

@@ -4,7 +4,7 @@ category: [FinancialEngineering]
 title : "Mean Variance Portfolio Theory"
 excerpt : "Mean Variance Portfolio and Efficient Frontier"
 
-date: 2022-01-18
+date: 2022-01-24
 use_math : true
 ---
 

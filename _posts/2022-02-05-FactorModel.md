@@ -3,7 +3,7 @@
 category: [FinancialEngineering]
 title : "Factor Model"
 excerpt : 
-date: 2022-02-04
+date: 2022-02-05
 use_math : true
 ---
 
