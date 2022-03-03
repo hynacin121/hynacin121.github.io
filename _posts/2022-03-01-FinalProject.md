@@ -5,6 +5,7 @@ excerpt : ""
 
 date: 2022-03-01
 use_math : true
+mathjax : true
 ---
 __SWCON424-01 금융데이터 분석 기말프로젝트__
 
@@ -29,7 +30,6 @@ __SWCON424-01 금융데이터 분석 기말프로젝트__
 <br>
 <br/>
 <div>
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
