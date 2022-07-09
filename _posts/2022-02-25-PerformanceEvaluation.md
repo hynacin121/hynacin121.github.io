@@ -72,7 +72,7 @@ where $r_b$ is the benchmark return
 + Sortino Ratio uses downside deviation as a measure of risk 
 
 $$
-Downside \deviation = \sqrt{\frac1{T-1}\sum_{i=1}^T(min(0,r_i-r_{MAR}))^2}
+Downside \ deviation = \sqrt{\frac1{T-1}\sum_{i=1}^T(min(0,r_i-r_{MAR}))^2}
 $$
 
 where $r_{MAR}$ is the minimum acceptable return or the desired target return
