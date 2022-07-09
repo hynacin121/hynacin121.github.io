@@ -57,10 +57,14 @@ That is $w_m$ is the  $m^{th}$ column of W.
 Thus $p_1$ belongs to the first and 
 largest eigenvalue $\lambda_1$
 
-+ The covariance matrix $T^{-1}P'P$ of the principal components is $\Lambda$.
++ The covariance matrix $T^{-1}P'P$ 
+of the principal components is $\Lambda$.
 
 $$
-T^{-1}P'P = T^{-1}W'X'XW = W'VW = W'W\Lambda = W^{-1}W\Lambda = \Lambda \\ \frac1TW'X'XW = W'(\frac1TX'X)W, \quad where\; \frac1TX'X \; is\; covariance\; matrix  
+T^{-1}P'P = T^{-1}W'X'XW = W'VW = W'W\Lambda = W^{-1}W\Lambda = \Lambda
+$$
+$$
+\frac1TW'X'XW = W'(\frac1TX'X)W, \quad where\ \frac1TX'X \ is\ covariance\ matrix  
 $$
 
 + This shows that
@@ -89,7 +93,7 @@ x_i  \approx \omega_{i1}p_1 + \omega_{i2}p_2 + \omega_{i3}p_3
 $$
 
 + In matrix notation.
-+ 
+
 $$
 X \approx P^*{W^*}^T
 $$
