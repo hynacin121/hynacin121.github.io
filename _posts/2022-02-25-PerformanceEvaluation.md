@@ -50,6 +50,7 @@ $$
 + Tracking error shows how closely a portfolio follows a given bench mark $Tracking \ Error = \sqrt{Var(r_i - r_{b,i})}$
 where $r_b \in R^T$ is the benchmark return
 + Tracking error is the standard deviation of active return.
+
 $$
 Active \ Return = Portfolio \ Return - Benchmark \ Return
 $$
@@ -73,6 +74,7 @@ where $r_b$ is the benchmark return
 $$
 Downside \deviation = \sqrt{\frac1{T-1}\sum_{i=1}^T(min(0,r_i-r_{MAR}))^2}
 $$
+
 where $r_{MAR}$ is the minimum acceptable return or the desired target return
 
 $$
