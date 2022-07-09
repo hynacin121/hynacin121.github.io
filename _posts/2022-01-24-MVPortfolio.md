@@ -707,8 +707,12 @@ plt.scatter(min_vol_port[1], min_vol_port[0], color='r', marker='*', s=150)
 + Then we find the feasible portfolio of minimum variance than has this mean
 
 $$
-mimimize_w \frac12 \sum_{i=1}^n \sum_{j=1}^nw_iw_j\sigma_{ij} \\
-subject\; to \sum_{i=1}^nw_ir_i = r \\
+min_w \frac12 \sum_{i=1}^n \sum_{j=1}^nw_iw_j\sigma_{ij} 
+$$
+$$
+subject\ to \sum_{i=1}^nw_ir_i = r \
+$$
+$$
 \sum_{i=1}^nw_i = 1
 $$
 
@@ -716,10 +720,9 @@ $$
 
 $$
 \sum_{i=1}^n\sigma_{ij} - \lambda r_i - \mu = 0  \quad
-for \; i = 1, 2, ..., n\\ 
-\sum_{i=1}^nw_ir_i = r \\
+for \; i = 1, 2, ..., n
+\sum_{i=1}^nw_ir_i = r 
 \sum_{i=1}^nw_i = 1
-
 $$
 
 # __One Fund Theorem__
