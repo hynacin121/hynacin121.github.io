@@ -93,7 +93,7 @@ s.t \sum w_i = 1\\
 w_i \ > \ 0 \ for \ \forall i 
 $$
 $$
-\min \sum[w_i - \frac{\sigma(w)^2}{(\Sigma w)_iN }]^2 \; s.t \sum w_i = 1 \\
+\min \sum[w_i - \frac{\sigma(w)^2}{(\Sigma w)_iN }]^2 \quad s.t \sum w_i = 1 \quad
 w_i \; > \; 0 \; for \; \forall i 
 $$
 
