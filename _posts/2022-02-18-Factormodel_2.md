@@ -49,10 +49,8 @@ $$
     $ \lambda_1 \geq \lambda_2 \geq \dots \geq \lambda_n $
 + The matrix of principal components of V is a T x n matrix P defined as a product of matrix of input data X with eigenvector matrix of V : P = XW
 
-+ The $m^{th}$ principal component of V is defined as the $m^{th}$ column of P.
-$$
-p_m = \omega_{1m}x_1 + \omega_{2m}x_2 + \dots \omega_{km}x_k 
-$$
++ The $m^{th}$ principal component of V is defined as the $m^{th}$ column of P. 
+$p_m = \omega_{1m}x_1 + \omega_{2m}x_2 + \dots \omega_{km}x_k$ ,
 where $w_m = (\omega_{1m}, \omega_{2m}, \dots, \omega_{km})'$ is the eigen vector 
 corresponding to $\lambda_m$, the  $m^{th}$ largest eigenvalue of V. 
 That is $w_m$ is the  $m^{th}$ column of W. 
