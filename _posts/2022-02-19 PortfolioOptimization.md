@@ -189,7 +189,8 @@ $$
 + Absolute Varinace : $AD(\tilde{r}_p) = E[\left\vert \sum_{i=1}^N\omega_i \tilde{r}_i - \sum_{i=1}^N\omega_i \mu_i  \right\vert] = E[\left\vert\sum_ir_i\omega_i - E[\sum_ir_i\omega_i] \right\vert] $ 
 
 ### __Downside Risk Measure__
-+ LSAD : $LSAD(r_{pfo}) = AD_(r_{pfo}) = E[\left\vert r_{pfo} -E[r_{pfo}]\right\vert_-$ where $\left\vert a\right\vert_- = \max[0,-a]$
++ LSAD : $LSAD(r_{pfo}) = AD_(r_{pfo}) = E[\left\vert r_{pfo} -E[r_{pfo}]\right\vert_-$ 
+ where $\left\vert a\right\vert_- = \max[0,-a]$
 
 + Qunatile-based risk measures 
     + Value-at-risk(Var)
