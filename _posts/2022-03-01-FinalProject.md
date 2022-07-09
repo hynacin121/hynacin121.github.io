@@ -84,9 +84,8 @@ EqualRiskContribution =  \frac{\sigma_p}n
 $$
 
 + 모델에서 동일한 Risk Contribution을 주기 위해서 표준편차를 자산의 개수로 나눈 값을 활용한다. Risk Parity Model는 최소화 모델로 구축할 수 있다.
-<br>
-<br/>
 
++ Type1
 $$
 \min \sum \sum(w_iMRC_i - w_jMRC_j)^2 
 $$
@@ -95,7 +94,9 @@ $$
 s.t \sum w_i = 1 \quad
 w_i \ > \ 0 \ for \ \forall i 
 $$
-
+<br>
+</br>
++ Type2
 $$
 \min \sum[w_i - \frac{\sigma(w)^2}{(\Sigma w)_iN }]^2
 $$
