@@ -22,6 +22,7 @@ $$
 Suppose each asset has same rate of return with mean _m_ and variance σ.\
 Each return pair has a same covariance.\
 Then, the variance becomes
+
 $$
 var(r) = \frac {0.7\sigma^2}n + 0.3\sigma^2
 $$
