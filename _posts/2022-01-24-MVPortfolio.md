@@ -15,9 +15,9 @@ mathjax : true
 + Risk of the return of portfolio can be reduced by   diversification
 + Effect of Diversification can be explaned by the mean-variance framework
 
-$
+$$
 Var = \sum _{i=1} ^n \sum _{j=1} ^n (w_iw_j\sigma_{ij})
-$
+$$
 
 Suppose each asset has same rate of return with mean _m_ and variance σ.\
 Each return pair has a same covariance.\
