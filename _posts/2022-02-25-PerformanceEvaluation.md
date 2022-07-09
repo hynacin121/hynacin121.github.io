@@ -26,7 +26,7 @@ $$
 + Computes the expected excess return of portfolio for every unit of volatility it takes
 
 $$
-Sharpe\; ratio = \frac{E(r)-r_f}{\sigma(r)}
+Sharpe\ ratio = \frac{E(r)-r_f}{\sigma(r)}
 $$
 
 + One of the most widely used measures of performance
@@ -68,11 +68,7 @@ where $r_b$ is the benchmark return
 
 # __Sortino Ratio__
 
-+ Sortino Ratio uses downside deviation as a measure of risk
-$$
-Downside \deviation = \sqrt{\frac1{T-1}\sum_{i=1}^T(min(0,r_i-r_{MAR}))^2
-}
-$$
++ Sortino Ratio uses downside deviation as a measure of risk $Downside \deviation = \sqrt{\frac1{T-1}\sum_{i=1}^T(min(0,r_i-r_{MAR}))^2}$
 where $r_{MAR}$ is the minimum acceptable return or the desired target return
 
 $$
@@ -102,7 +98,7 @@ $$
 + VaR is a probabilistic approach VaR at 95% represents the minimum level of loss that is only exceeded with, at most, 5% probability
 
 $$
-VaR_\alpha = min[l\; \vert \; P(l_p > l) \leq 1 -\alpha]  
+VaR_\alpha = min[l\ \vert \ P(l_p > l) \leq 1 -\alpha]  
 $$
 
 ## __Limitation of Var__
@@ -116,7 +112,7 @@ $$
 + CVaR overcomes this drawback by computing the expected return of scenarios that are worse than VaR level
 
 $$
-CVaR_\alpha = E(l \; \vert \; l \geq VaR_\alpha)\\= \frac1{1-\alpha}\int_{-r'\omega}(-r'\omega)p(r)dr
+CVaR_\alpha = E(l \; \vert \; l \geq VaR_\alpha)\\ = \frac1{1-\alpha}\int_{-r'\omega}(-r'\omega)p(r)dr
 $$
 
 where $-r'\omega$ is return and $p(r)$ is probability
