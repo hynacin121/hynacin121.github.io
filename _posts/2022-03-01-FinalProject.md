@@ -10,9 +10,7 @@ mathjax : true
 __SWCON424-01 금융데이터 분석 기말프로젝트__
 
 2015103604 한지운 
-
 2014102714 엄세웅
-
 2017103747 정희재
 
 
@@ -72,32 +70,32 @@ RC = w_i \times \frac{\partial\sigma_p}{\partial w_i}
 $
 + Python으로 Risk Contribution을 단순하게 계산하기 위해 한가지 계산 과정이 추가로 필요하다.
 
-$
+$$
 RC = w_i \times \frac{\partial\sigma_p}{\partial w_i} \\
-$
-$
+$$
+$$
 pf)\quad  (\sqrt{f(x)})' = \frac{f'(x)}{2\sqrt{f(x)}} \\
 MRC :\quad \frac{\partial\sigma_p}{\partial w_i} = \frac{2\Sigma w}{2\sqrt{w'\Sigma w}} \\
 RC : \quad w_i \times \frac{\partial\sigma_p}{\partial w_i} = \frac{2w' \Sigma w}{2\sqrt{w'\Sigma w}} = \sqrt{w'\Sigma w} = \sigma_p
-$
+$$
 
-$
+$$
 Equal \; Risk \; Contribution =  \frac{\sigma_p}n
-$
+$$
 
 + 모델에서 동일한 Risk Contribution을 주기 위해서 표준편차를 자산의 개수로 나눈 값을 활용한다. Risk Parity Model는 최소화 모델로 구축할 수 있다.
 <br>
 <br/>
-$
+$$
 \min \sum \sum(w_iMRC_i - w_jMRC_j)^2 \\
 s.t \sum w_i = 1\\
 w_i \; > \; 0 \; for \; \forall i 
-$
-$
+$$
+$$
 \min \sum[w_i - \frac{\sigma(w)^2}{(\Sigma w)_iN }]^2 \\
 s.t \sum w_i = 1\\
 w_i \; > \; 0 \; for \; \forall i 
-$
+$$
 <br>
 <br/>
 + Risk Parity Model은 여러가지 최소화 모델로 구축할 수 있다. 좌측의 모델의 경우 i번째 자산의 RC가 j번째 자산의 RC와 같을 때 minimize가 되는 형식으로 모든 자산의 RC가 동일 해진다. 우측의 모델의 경우 $w_i-\frac{σ(w)^2}{((Σw)_i N)}= 0$일 때 최소화된다. 이때 i번째 자산의 분산은 $w_i (Σw)_i$ 로 $w_i (Σw)_i=σ(w)^2/N $일 때, 즉 각 자산의 분산이 전체 분산을 자산으로 나눈 값으로 동일 할 때 최소화된다.
@@ -108,13 +106,14 @@ $
 ## __All Weather by Risk Parity__
 
 + Risk Parity Model을 All Weather Portfolio에 적용하기 위해서 포트폴리오를 2번 구축해야한다. 첫째로 그림1에서 나뉜 대로 총 4개의 포트폴리오를 구성한다. 이 때 포트폴리오는 동일가중치를 활용한다. 이 후 Risk Parity를 활용하기 때문에 4개의 포트폴리오는 동일가중치를 활용해도 괜찮다고 가정한다. 4개의 포트폴리오를 하나의 자산으로 보고 Risk Parity 모델을 활용하여 가중치를 구한다.  
-
+<br>
+</br>
+<br>
+</br>
 # __비교군__ 
 
 + All Weather Portfolio와의 기대 수익률, Drawdown을 비교하기 위한 벤치마크로 두 가지 포트폴리오를 사용하였다. GMV Portfolio는 수익률을 일부 포기하는 대신 압도적인 안정성을 보장하는 모델이며, 60/40 Portfolio는 안정성을 기반으로 꾸준히 높은 수익률을 보여주는 모델이다. 두 모델을 벤치마킹하여 All Weather Portfolio의 상대적인 수익률과 안정성을 비교하고 포트폴리오의 성능을 평가하고자 하였다.
 
-<br>
-</br>
 
 ## __60/40__
 
@@ -187,7 +186,6 @@ $
 <br>
 <br/>
 <div>
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -254,7 +252,6 @@ $
 <br>
 <br/>
 <div>
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
