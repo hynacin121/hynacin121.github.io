@@ -64,7 +64,7 @@ $$
 where the sample skewness $S = {\hat{\mu_3}}/{\hat{\mu_2}}^{3/2}$  is an estimator of 
 $\beta_1 = \mu_3/\mu_2^{3/2}$ and sample kurtosis $K = {\hat{\mu_4}}/{\hat{\mu_2}}^2$ 
 an estimator of $\beta_2 = \mu_4/\mu_2^2 $ and the $\mu_2 \ and \ \mu_3$ are the thoerical second, 
-third central moments, respectively, with its estimates $\hat{\mu_j} = \frac1n \sum_{i=1}^n(x_i - \bar{x})^j, \quad j=2,3,4$
+third central moments, respectively, with its estimates $\hat{\mu_j} = \frac{1}{n} \sum_{i=1}^n(x_i - \bar{x})^j, \ j=2,3,4$
 
 # __Individual Stocks vs. Stock Markets__
 
