@@ -86,6 +86,7 @@ $$
 + 모델에서 동일한 Risk Contribution을 주기 위해서 표준편차를 자산의 개수로 나눈 값을 활용한다. Risk Parity Model는 최소화 모델로 구축할 수 있다.
 <br>
 <br/>
+
 $$
 \min \sum \sum(w_iMRC_i - w_jMRC_j)^2 \\
 s.t \sum w_i = 1\\
@@ -96,6 +97,7 @@ $$
 s.t \sum w_i = 1\\
 w_i \; > \; 0 \; for \; \forall i 
 $$
+
 <br>
 <br/>
 + Risk Parity Model은 여러가지 최소화 모델로 구축할 수 있다. 좌측의 모델의 경우 i번째 자산의 RC가 j번째 자산의 RC와 같을 때 minimize가 되는 형식으로 모든 자산의 RC가 동일 해진다. 우측의 모델의 경우 $w_i-\frac{σ(w)^2}{((Σw)_i N)}= 0$일 때 최소화된다. 이때 i번째 자산의 분산은 $w_i (Σw)_i$ 로 $w_i (Σw)_i=σ(w)^2/N $일 때, 즉 각 자산의 분산이 전체 분산을 자산으로 나눈 값으로 동일 할 때 최소화된다.
