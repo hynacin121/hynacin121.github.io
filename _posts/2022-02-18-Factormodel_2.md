@@ -54,17 +54,21 @@ $p_m = \omega_{1m}x_1 + \omega_{2m}x_2 + \dots \omega_{km}x_k$ ,
 where $w_m = (\omega_{1m}, \omega_{2m}, \dots, \omega_{km})'$ is the eigen vector 
 corresponding to $\lambda_m$, the  $m^{th}$ largest eigenvalue of V. 
 That is $w_m$ is the  $m^{th}$ column of W. 
-Thus $p_1$ belongs to the first and largest eigenvalue  $\lambda_1$
+Thus $p_1$ belongs to the first and 
+largest eigenvalue $\lambda_1$
 
 + The covariance matrix $T^{-1}P'P$ of the principal components is $\Lambda$.
+
 $$
 T^{-1}P'P = T^{-1}W'X'XW = W'VW = W'W\Lambda = W^{-1}W\Lambda = \Lambda \\ \frac1TW'X'XW = W'(\frac1TX'X)W, \quad where\; \frac1TX'X \; is\; covariance\; matrix  
 $$
+
 + This shows that
     + the covarinace matrix is diagonal, PCs are uncorrelated
     + $m^{th}$ PC is $\lambda_m$, the $m^{th}$ largest eigenvalue of V 
 
 + The proportion of this total variaction that is explained by  $m^{th}$ principal component is
+
 $$
 \frac{\lambda_m}{\lambda_1 + \lambda_2 + \dots + \lambda_n}
 $$
@@ -73,17 +77,23 @@ $$
 
 + Since $P = XW, \; W' = W^{-1}$ we have $X = PW'$
 + In other words, we can write each of the original returns that are input to the PCA as linear combination of the principal components as 
+
 $$
 x_i = \omega_{i1}p_1 + \omega_{i2}p_2 +\dots + \omega_{ik}p_k
 $$
+
 A representation using the first three principal components is 
+
 $$
 x_i  \approx \omega_{i1}p_1 + \omega_{i2}p_2 + \omega_{i3}p_3
 $$
+
 + In matrix notation.
++ 
 $$
 X \approx P^*{W^*}^T
 $$
+
 + PCA is useful for reducing dimensions in highly correlated systems where n is 
 + very large and $k \ll n$
 
