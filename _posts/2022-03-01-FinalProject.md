@@ -63,11 +63,11 @@ __SWCON424-01 금융데이터 분석 기말프로젝트__
 
   Risk Parity Model은 Marginal Risk Contribution과 Risk Contribution을 활용하여 구성한다. Marginal Contribution은 특정 종목의 비중을 한 단위 늘렸을 때 증가하는 포트폴리오의 변동성(1)이다. Risk Contribution은 개별종목이 전체 포트폴리오의 위험에 기여하는 정도로 MRC에 가중치를 곱하는 값(2)로 나타낸다. 
 
-$
+$$
 MRC = \frac{\partial\sigma_p}{\partial w_i}\\
 \\
 RC = w_i \times \frac{\partial\sigma_p}{\partial w_i}
-$
+$$
 + Python으로 Risk Contribution을 단순하게 계산하기 위해 한가지 계산 과정이 추가로 필요하다.
 
 $$
@@ -80,7 +80,7 @@ RC : \quad w_i \times \frac{\partial\sigma_p}{\partial w_i} = \frac{2w' \Sigma w
 $$
 
 $$
-Equal \; Risk \; Contribution =  \frac{\sigma_p}n
+EqualRiskContribution =  \frac{\sigma_p}n
 $$
 
 + 모델에서 동일한 Risk Contribution을 주기 위해서 표준편차를 자산의 개수로 나눈 값을 활용한다. Risk Parity Model는 최소화 모델로 구축할 수 있다.
