@@ -88,8 +88,11 @@ $$
 <br/>
 
 $$
-\min \sum \sum(w_iMRC_i - w_jMRC_j)^2 \\
-s.t \sum w_i = 1\\
+\min \sum \sum(w_iMRC_i - w_jMRC_j)^2 
+$$
+
+$$
+s.t \sum w_i = 1 \quad
 w_i \ > \ 0 \ for \ \forall i 
 $$
 
@@ -99,7 +102,7 @@ $$
 
 $$
 s.t \sum w_i = 1 \quad
-w_i \; > \; 0 \; for \; \forall i 
+w_i \ > \ 0 \ for \ \forall i 
 $$
 
 <br>
