@@ -21,10 +21,10 @@ use_math : true
 + Supopose that on date _t_ we have recorded data up to time _t-1_
 + then the EWMA of these observations is defined as
 
-$
+$$
 EWMA(x_{t-1}, \dots, x_1 \vert \; \lambda) = 
 \frac{x_{t-1} + \lambda x_{t-2} + \lambda^2 x_{t-3} + \dots  + \lambda^{t-2} x_{1}}{1 + \lambda + \lambda^2 + \dots  + \lambda^{t-2}}
-$
+$$
 
 + Also, since $ 1 + \lambda + \lambda^2 + \dots  = (1- \lambda)^{-1}$ . For large t,we can write $EWMA = (1- \lambda)\sum_{i=1}^\infty \lambda^{i-1}x_{t-i}$
 
