@@ -232,29 +232,31 @@ $$
 <br/>
 
 <p>
-<img src = "/assets/img/FinalProject_Drawdown.png"  >
+<img src = "/assets/img/FinalProject_Drawdown.jpg"  >
 </p>
+
+
 
 + Drawdown은 위와 같이 나왔다. 예상했던 것처럼 2008~2009년 2020년초에 큰 Drawdown이 있었다. 전반적으로 GMV의 Drawdown이 안정적이었고 60/40의 Drawdown이 가장 불안정 했다.
 
 <p>
-<img src = "/assets/img/FinalProject_Drawdown2.png"  >
+<img src = "/assets/img/FinalProject_Drawdown2.jpg"  >
 </p>
 
 + Recession이었던 2008년을 자세히 살펴보면 All Weather Portfolio가 가장 안정적인 모습을 보였고 GMV와 60/40이 25%가 넘어가는 drawdown을 보였다.
 
 <p>
-<img src = "/assets/img/FinalProject_CumulativeReturn.png"  >
+<img src = "/assets/img/FinalProject_CumulativeReturn.jpg"  >
 
-<img src = "/assets/img/FinalProject_MonthlyReturn.png"  >
+<img src = "/assets/img/FinalProject_MonthlyReturn.jpg"  >
 </p>
 
 + 누적수익률의 경우 60/40, All Weather Portfolio, GMV의 순으로 좋았다. All Weather의 경우 주식의 비중이 20% 아래로 하락하여 60/40에 비해 수익률이 낮음을 알 수 있었다. 
 
 + Fama-French 5 Factor Model과 회귀분석을 진행한 결과는 다음과 같다. 
 <p>
-<img src = "/assets/img/FinalProject_FactorModel1.png"  >
-<img src = "/assets/img/FinalProject_FactorModel2.png"  >
+<img src = "/assets/img/FinalProject_FactorModel1.jpg"  >
+<img src = "/assets/img/FinalProject_FactorModel2.jpg"  >
 </p>
 
 + All Weather Portfolio와 GMV 둘은 alpha 값이 0보다 크고 p값이 유의수준보다 작기 때문에 유의미하다. 이에 따라 두 모델은 Factor Model보다 수익률이 좋다고 할 수 있다. 
